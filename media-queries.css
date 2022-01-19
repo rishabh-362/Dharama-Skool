@@ -1,0 +1,2872 @@
+   /**********************   CLOCK   **************************/
+   
+   @media (min-width: 768px) and (max-width: 991px) {
+       .clock-item {
+           margin-bottom: 30px;
+       }
+   }
+   
+   @media (max-width: 767px) {
+       .clock-item {
+           margin: 0px 30px 30px 30px;
+       }
+   }
+   /*************   ROADMAP  TIMELINE   ***********************/
+   
+   @media only screen and (min-width: 768px) {
+       .timeline::before {
+           content: "";
+           position: absolute;
+           height: 100%;
+           width: 5px;
+           left: 50%;
+           transform: translateX(-50%);
+           background-color: gray;
+       }
+       .timeline ul li {
+           width: 50%;
+           margin-bottom: 50px;
+           position: relative;
+       }
+       .timeline ul li:nth-child(odd) {
+           float: left;
+           transform: translateX(-30px);
+       }
+       .timeline ul li:nth-child(even) {
+           float: right;
+           transform: translateX(30px);
+       }
+       .timeline ul li::after {
+           content: "";
+           position: absolute;
+           height: 30px;
+           width: 30px;
+           background-color: gray;
+           border-radius: 50%;
+           top: 0%;
+       }
+       .timeline ul li:nth-child(odd)::after {
+           transform: translate(50%, -50%);
+           right: -30px;
+       }
+       .timeline ul li:nth-child(9)::after {
+           transform: translate(50%, -200%);
+           right: -30px;
+           top: 10%;
+       }
+       .timeline ul li:nth-child(even)::after {
+           transform: translate(-50%, 100%);
+           left: -30px;
+       }
+   }
+   /*******************************media Queries***********************/
+   
+   @media only screen and (max-width:1200px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec2 {
+           height: 90vh;
+           background: transparent;
+       }
+       .sec2 img {
+           width: 102%;
+           height: 80vh;
+           margin-left: -15px;
+       }
+       /****************************** Section 3 ***********************************/
+       .sec3 {
+           height: 120vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: url(brickwall.jpg);
+           height: 110vh;
+           width: 100%;
+           border-radius: 30px;
+       }
+       .row {
+           height: auto;
+       }
+       .phone {
+           position: absolute;
+           width: 65%;
+           left: 20%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 85%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 35px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .disc {
+           position: relative;
+           width: 100%;
+           height: 100%;
+       }
+       .inner-box {
+           position: relative;
+           top: 0%;
+           color: white;
+           padding: 15px;
+           height: 100%;
+           width: 100%;
+           background: rgba(100, 100, 100, 0.8);
+           border-radius: 25px;
+       }
+       .inner-box p {
+           font-size: 16px;
+           letter-spacing: 1px;
+           color: white;
+           letter-spacing: 1px;
+           word-spacing: 4px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+           color: white;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 67%;
+           left: 5%;
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 2px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 15px;
+           letter-spacing: 1px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+   }
+   
+   @media only screen and (max-width:1110px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 100vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 65vh;
+           width: 60%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 80%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: absolute;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 55%;
+       }
+       .inner-box p {
+           font-size: 14px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 67%;
+           left: 5%;
+           font-weight: 600;
+           font-size: 25px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 13px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 35px;
+           width: 35px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 20px;
+           width: 20px;
+       }
+       .parallax {
+           width: 100%;
+           height: 540vh;
+       }
+   }
+   
+   @media only screen and (max-width:1035px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .city {
+           position: relative;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .city video {
+           height: 85vh;
+       }
+       .sec3 {
+           height: 100vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 65vh;
+           width: 60%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 85%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: absolute;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 55%;
+       }
+       .inner-box p {
+           font-size: 14px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 600;
+           font-size: 25px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 13px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .parallax {
+           width: 100%;
+           height: 540vh;
+       }
+       .yring {
+           width: 70%;
+           height: 100%;
+           position: relative;
+           left: 15%;
+       }
+   }
+   
+   @media only screen and (max-width:991px) {
+       .city video {
+           height: 80vh;
+       }
+   }
+   
+   @media only screen and (max-width:980px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 100vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 65vh;
+           width: 60%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 90%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: absolute;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 60%;
+       }
+       .inner-box p {
+           font-size: 14px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 600;
+           font-size: 23px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 12px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .parallax {
+           width: 100%;
+           height: 610vh;
+       }
+   }
+   
+   @media only screen and (max-width:908px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 100vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 65vh;
+           width: 60%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 97%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: absolute;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 65%;
+       }
+       .inner-box p {
+           font-size: 14px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 600;
+           font-size: 23px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 12px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+   }
+   
+   @media only screen and (max-width:804px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 100vh;
+           justify-content: center;
+           align-items: center;
+           display: flex;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 65vh;
+           width: 75%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 97%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: absolute;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 60%;
+       }
+       .inner-box p {
+           font-size: 14px;
+           letter-spacing: 1px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 25px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 600;
+           font-size: 23px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 12px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+   }
+   
+   @media only screen and (max-width:768px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 150vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 150vh;
+           width: 75%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 50%;
+           left: 5%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 40%;
+       }
+       .inner-box p {
+           font-size: 18px;
+           letter-spacing: 1px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 27px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 700;
+           font-size: 30px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 14px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .parallax {
+           width: 100%;
+           height: 480vh;
+       }
+   }
+   
+   @media only screen and (max-width:715px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 150vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           height: 150vh;
+           width: 75%;
+           border-radius: 30px;
+       }
+       .phone {
+           position: relative;
+           width: 50%;
+           left: 5%;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 75%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 40%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 5%;
+       }
+       .frame {
+           height: auto;
+           width: 90%;
+           border-radius: 20px;
+           position: relative;
+           left: 40%;
+           transform: translate(-50%);
+           top: 2%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 95%;
+           width: 80%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 25px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .inner-box {
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 100%;
+           width: 40%;
+       }
+       .inner-box p {
+           font-size: 18px;
+           letter-spacing: 1px;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 27px;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 65%;
+           left: 5%;
+           font-weight: 700;
+           font-size: 27px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 74%;
+           padding: 10px;
+       }
+       .para-box p {
+           position: absolute;
+           color: white;
+           font-size: 13px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 15px;
+           width: 15px;
+       }
+   }
+   
+   @media only screen and (max-width:665px) {
+       .parallax {
+           width: 100%;
+           height: 500vh;
+       }
+   }
+   
+   @media only screen and (max-width:609px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 45%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 40%;
+           left: 30%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 21px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 11px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 50%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .parallax {
+           width: 100%;
+           height: 520vh;
+       }
+   }
+   
+   @media only screen and (max-width:635px) {
+       .parallax {
+           width: 100%;
+           height: 540vh;
+       }
+   }
+   
+   @media only screen and (max-width:635px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 45%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 40%;
+           left: 30%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 18px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 11px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 50%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 33%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+   }
+   
+   @media only screen and (max-width:635px) {
+       .parallax {
+           width: 100%;
+           height: 560vh;
+       }
+   }
+   
+   @media only screen and (max-width:502px) {
+       .parallax {
+           width: 100%;
+           height: 580vh;
+       }
+   }
+   
+   @media only screen and (max-width:485px) {
+       .parallax {
+           width: 100%;
+           height: 605vh;
+       }
+   }
+   
+   @media only screen and (max-width:463px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 50%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 45%;
+           left: 27%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 16px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 11px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 50%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 30%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+       .parallax {
+           width: 100%;
+           height: 625vh;
+       }
+   }
+   
+   @media only screen and (max-width:447px) {
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 32%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+       .parallax {
+           width: 100%;
+           height: 655vh;
+       }
+   }
+   
+   @media only screen and (max-width:427px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 50%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 45%;
+           left: 27%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 16px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 11px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 50%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 30%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+       .parallax {
+           width: 100%;
+           height: 690vh;
+       }
+   }
+   
+   @media only screen and (max-width:417px) {
+       .parallax {
+           width: 100%;
+           height: 710vh;
+       }
+   }
+   
+   @media only screen and (max-width:417px) {
+       .parallax {
+           width: 100%;
+           height: 730vh;
+       }
+   }
+   
+   @media only screen and (max-width:393px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 50%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 45%;
+           left: 27%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 13px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 10px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 22px;
+           width: 22px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 10px;
+           width: 10px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 22px;
+           width: 22px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 10px;
+           width: 10px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 22px;
+           width: 22px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 10px;
+           width: 10px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 25px;
+           width: 25px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 12px;
+           width: 12px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 50%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 30%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+       .parallax {
+           width: 100%;
+           height: 770vh;
+       }
+   }
+   
+   @media only screen and (max-width:384px) {
+       .parallax {
+           width: 100%;
+           height: 790vh;
+       }
+   }
+   
+   @media only screen and (max-width:378px) {
+       .parallax {
+           width: 100%;
+           height: 840vh;
+       }
+   }
+   
+   @media only screen and (max-width:368px) {
+       .parallax {
+           width: 100%;
+           height: 910vh;
+       }
+   }
+   
+   @media only screen and (max-width:361px) {
+       .parallax {
+           width: 100%;
+           height: 890vh;
+       }
+   }
+   
+   @media only screen and (max-width:340px) {
+       .banner img {
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+       .sec3 {
+           height: 200vh;
+       }
+       .sec3 .container {
+           background: rgba(255, 255, 255, .5);
+           border-radius: 30px;
+           width: 95%;
+           height: 170vh;
+           display: block;
+       }
+       .sec3 .aerrow-right {
+           position: relative;
+           top: 0%;
+           top: -29%;
+           background: transparent;
+           border: none;
+           height: 10%;
+           left: 95%;
+       }
+       .sec3 .aerrow-left {
+           position: relative;
+           top: 20%;
+           background: transparent;
+           border: none;
+           height: 10%;
+       }
+       .phone {
+           position: relative;
+           width: 70%;
+           left: 17%;
+           height: 40%;
+       }
+       .frame {
+           height: 84%;
+           width: 55%;
+           border-radius: 25px;
+           position: relative;
+           left: 50%;
+           transform: translate(-50%);
+           top: 0%;
+       }
+       .frame-inner {
+           position: absolute;
+           height: 80%;
+           width: 49%;
+           left: 25%;
+           top: 3%;
+           border-radius: 35px;
+       }
+       .king {
+           position: absolute;
+           width: 100%;
+           height: 100%;
+           border-radius: 22px;
+       }
+       .king2 {
+           position: absolute;
+           left: 7%;
+           top: 0%;
+           height: 10%;
+           width: 17%;
+           border: 1px solid black;
+           border-radius: 50%;
+       }
+       .sec3 h2 {
+           position: absolute;
+           color: white;
+           top: 61%;
+           left: 5%;
+           font-weight: 500;
+           font-size: 14px;
+       }
+       .para-box {
+           width: 100%;
+           position: absolute;
+           top: 70%;
+           padding: 8px;
+       }
+       .sec3 p {
+           position: absolute;
+           color: white;
+           font-size: 10px;
+       }
+       .sec3 .btn1 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 5%;
+           height: 20px;
+           width: 20px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn1 img {
+           background: black;
+           height: 7px;
+           width: 7px;
+       }
+       .sec3 .btn2 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 24%;
+           height: 20px;
+           width: 20px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn2 img {
+           background: black;
+           height: 7px;
+           width: 7px;
+       }
+       .sec3 .btn3 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 43%;
+           height: 20px;
+           width: 20px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn3 img {
+           background: black;
+           height: 7px;
+           width: 7px;
+       }
+       .sec3 .btn4 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 63%;
+           height: 20px;
+           width: 20px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn4 img {
+           background: black;
+           height: 7px;
+           width: 7px;
+       }
+       .sec3 .btn5 {
+           position: absolute;
+           background: transparent;
+           top: 91%;
+           left: 81%;
+           height: 20px;
+           width: 20px;
+           border-radius: 50%;
+           border: 3px solid white;
+       }
+       .btn5 img {
+           background: black;
+           height: 7px;
+           width: 7px;
+       }
+       .disc {
+           position: absolute;
+           width: 63%;
+           height: 80%;
+           left: 20%;
+       }
+       .inner-box {
+           background: rgba(170, 170, 170, .9);
+           border-radius: 25px;
+           padding: 10px;
+           position: relative;
+           top: 3%;
+           color: white;
+           height: 80%;
+           width: 55%;
+       }
+       .inner-box h3 {
+           font-weight: 700;
+           font-size: 30px;
+           letter-spacing: 1px;
+       }
+       .inner-box p {
+           letter-spacing: 1px;
+       }
+       .started {
+           height: 40px;
+           width: 170px;
+           position: relative;
+           left: 30%;
+           margin-bottom: 30px;
+           background: aqua;
+           font-size: 16px;
+           font-weight: 500;
+           border-radius: 30px;
+       }
+   }
